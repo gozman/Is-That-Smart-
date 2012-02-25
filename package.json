@@ -1,7 +1,7 @@
 {
   "name": "isthatsmart",
   "description": "Twitter bot for creating a dialog around the use of Ritalin & Adderall",
-  "version": "0.1",
+  "version": "0.1.0",
   "author": "Gozman, beckh4m and cynforlini",
   "repository": {
     "type": "git", 
