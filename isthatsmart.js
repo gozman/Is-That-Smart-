@@ -1,13 +1,17 @@
-var natural = require('natural');
-
-var TweetClassifier = function () {}
-
 var TweetSamples = {
 	drug_names: ["ritalin", "adderall"],
 	positive: ["I need my ritalin", 
 			   "I can't focus, need ritalin"],
 	negative: ["Ritalin is funny", 
 	           "My kid is on ritalin because he has ADHD"]
+}
+
+var natural = require('natural');
+
+var TweetClassifier = exports.Kohai = functions(options) {
+	for (var o in options) {
+	    this[o] = options[o];
+	  }	
 }
 
 TweetClassifier.prototype.init = function() {
