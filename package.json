@@ -1,11 +1,11 @@
 {
-  "name": "kohai",
-  "description": "IRC bot for managing real-time data events.",
-  "version": "0.1.3-1",
-  "author": "AvianFlu <charlie@charlieistheman.com>",
+  "name": "isthatsmart",
+  "description": "Twitter bot for creating a dialog around the use of Ritalin & Adderall",
+  "version": "0.1",
+  "author": "Gozman, beckh4m and cynforlini",
   "repository": {
     "type": "git", 
-    "url": "http://github.com/nodejitsu/kohai.git" 
+    "url": "http://github.com/gozman/is-that-smart-.git" 
   },
   "bin": {
     "kohai": "bin/kohai"
@@ -20,6 +20,6 @@
      "natural": "0.0.69"
   },
   "engines": {
-    "node": ">= 0.4.x < 0.7.x"
+    "node": "0.4.7"
   } 
 }
