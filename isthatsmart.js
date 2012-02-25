@@ -8,7 +8,7 @@ var TweetSamples = {
 
 var natural = require('natural');
 
-var TweetClassifier = exports.Kohai = functions(options) {
+var TweetClassifier = exports.TweetClassifier = functions(options) {
 	for (var o in options) {
 	    this[o] = options[o];
 	  }	
