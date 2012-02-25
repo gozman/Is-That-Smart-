@@ -1,0 +1,21 @@
+{
+  "author": "Marak Squires <marak.squires@gmail.com>",
+  "name": "hook.io-mailer",
+  "version": "0.3.1",
+  "description": "a simple Hook for sending emails",
+  "repository": {
+    "url": "git://github.com/hookio/mailer.git"
+  },
+  "engines": {
+    "node": ">= v0.4.7"
+  },
+  "bin": {
+     "hookio-mailer": "./bin/mailer"
+  },
+  "main": "./lib/mailer",
+  "dependencies": {
+    "hook.io": "0.7.x",
+    "mailer": "0.6.x"
+  },
+  "devDependencies": {}
+}
