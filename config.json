@@ -75,10 +75,10 @@
   },
 "auth": {
     "twitter": {
-      "consumer_key": "gLkvTgpVe4g7OGURJWhUmQ",
-      "consumer_secret": "aO6G4nluvQNY5ByI4bghylosWvCK42ecIAr8McuXVk",
-      "access_token_key": "343523745-8IxEuh9Yksodx0IyIxBvcd6Q6UTGtoczwOIEfOoz",
-      "access_token_secret": "bbZiCPUNjxyNEgmRBGCKlhZV8P9J3TFkCRT7Pf2t7g"
+      "consumer_key": "YFGKjg1IIEgpvhXmsoEYuw",
+      "consumer_secret": "4id9VwUZpMYw8Vkob2jqqMweCNiytKjAYudQmM3jo",
+      "access_token_key": "502351401-b1emSUUB7PUWRUSn5nsohjSx2zW4gIeqqR1qkQka",
+      "access_token_secret": "ODECsEnSw9mGBs3yoFxY2JbzBIHwYveXKqcn0Oge3Y"
     },
     "bitly": {
       "user": "o_hi9dvjvg6",
