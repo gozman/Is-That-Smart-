@@ -1,19 +1,13 @@
-var http = require('http');
-
-var natural = require('natural'),  
-classifier = new natural.BayesClassifier();  
-classifier.addDocument("i say meow", 'cat');  
-classifier.addDocument("I speak english", 'person');  
-classifier.addDocument("People speak english", 'cat');  
-classifier.addDocument("Cats say meow", 'person');  
-classifier.train();
+var natural = require('natural');
 
 var TweetClassifier = function () {}
 
 var TweetSamples = {
-	drug_names: ["ritalin", adderall]
-	positive: ["I need my ritalin", "I can't focus, need ritalin"],
-	negative: ["Ritalin is funny", "My kid is on ritalin because he has ADHD"]
+	drug_names: ["ritalin", "adderall"]
+	positive: ["I need my ritalin", 
+			   "I can't focus, need ritalin"],
+	negative: ["Ritalin is funny", 
+	           "My kid is on ritalin because he has ADHD"]
 }
 
 TweetClassifier.prototype.init = function() {
@@ -47,8 +41,3 @@ TweetClassifier.prototype.classify = function(tweetData) {
 	return retVal;
 }
 
-http.createServer(function (req, res) {
-  res.writeHead(200, {'Content-Type': 'text/plain'});
-  res.end(classifier.classify('meow'));
-}).listen(1337, "127.0.0.1");
-console.log('Server running at http://127.0.0.1:1337/');
