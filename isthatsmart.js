@@ -3,7 +3,7 @@ var natural = require('natural');
 var TweetClassifier = function () {}
 
 var TweetSamples = {
-	drug_names: ["ritalin", "adderall"]
+	drug_names: ["ritalin", "adderall"],
 	positive: ["I need my ritalin", 
 			   "I can't focus, need ritalin"],
 	negative: ["Ritalin is funny", 
